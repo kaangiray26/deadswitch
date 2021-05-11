@@ -5,7 +5,8 @@ import os
 from Cipher import Cipher
 
 if __name__ == "__main__":
-  os.chdir(os.path.dirname(__file__))
+  if os.path.dirname(__file__):
+      os.chdir(os.path.dirname(__file__))
   files = os.listdir()
   cipher = Cipher()
   key_file = input("Please provide the path of 'key.asc':")[1:-2]
