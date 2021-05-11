@@ -5,7 +5,7 @@ import os
 if __name__ == "__main__":
   cipher = Cipher()
   path = input(
-      "Please create a zip archive of your files and provide the path:")[1:-2]
+      "Please create a zip archive of your files and provide the path:").strip()[1:-1]
   dirname = os.path.dirname(path)
   basename = os.path.basename(path)
   path = os.path.normpath(os.path.join(dirname, basename))
