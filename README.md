@@ -27,3 +27,6 @@ You should drop the path of ```key.asc``` inside the terminal or you can always 
 ## Step 5:
 That's all.  
 _Kendinize iyi bakın, kgb._
+
+## Here's a quick demo!
+![Alt Text](https://raw.githubusercontent.com/f34rl00/deadswitch/main/demo.gif)
