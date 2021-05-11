@@ -141,7 +141,8 @@ Have a nice day.""" %(self.token, datetime.fromtimestamp(self.deadline))
                 self.username, addr, msg.as_string())
 
 if __name__ == "__main__":
-    os.chdir(os.path.dirname(__file__))
+    if os.path.dirname(__file__):
+        os.chdir(os.path.dirname(__file__))
     w = Watchdog()
     if "--reset" in arg:
         w.reset()
