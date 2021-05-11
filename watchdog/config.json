@@ -1,0 +1,11 @@
+{
+    "EMAILS": [
+        "email_address"
+    ],
+    "FILE": "key.asc",
+    "LAST_CHECK": 0,
+    "DEADLINE": 0,
+    "TOKEN": "0",
+    "USERNAME": "username",
+    "PASSWORD": "password"
+}

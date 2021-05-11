@@ -1,6 +1,8 @@
 #!/usr/bin/python
-from Cipher import Cipher
+#-*- encoding:utf-8 -*-
+
 import os
+from Cipher import Cipher
 
 if __name__ == "__main__":
   os.chdir(os.path.dirname(__file__))
@@ -22,5 +24,6 @@ if __name__ == "__main__":
     cipher.key = f.read()
   with open(basename.rsplit(".asc")[0], "wb") as origin_file:
     origin_file.write(cipher.otp_decrypt())
+
   print("done.")
   exit()
