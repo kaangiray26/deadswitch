@@ -29,4 +29,5 @@ That's all.
 _Kendinize iyi bakın, kgb._
 
 ## Here's a quick demo!
-![Alt Text](https://raw.githubusercontent.com/f34rl00/deadswitch/main/demo.gif)
+[//]: # (https://raw.githubusercontent.com/f34rl00/deadswitch/main/demo.gif)
+![Alt Text](https://github.com/f34rl00/deadswitch/blob/main/demo.gif)
