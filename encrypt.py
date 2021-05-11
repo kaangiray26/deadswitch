@@ -5,7 +5,8 @@ import os
 from Cipher import Cipher
 
 if __name__ == "__main__":
-  os.chdir(os.path.dirname(__file__))
+  if os.path.dirname(__file__):
+      os.chdir(os.path.dirname(__file__))
   cipher = Cipher()
   path = input(
       "Please create a zip archive of your files and provide the path:").strip()[1:-1]
